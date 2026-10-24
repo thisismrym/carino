@@ -1,3 +1,36 @@
-.header{
-    
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  border-radius: 5px;
+  width: 440px;
+  margin: 10px auto;
+  background-color: rgb(97, 137, 169);
+}
+
+.header h1{
+    font-size: 2.3rem;
+    border-bottom: 1px solid #000000;
+    width:fit-content;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+    color: gray;
+    padding: 10px 0;
+    margin-top: 30px;
+
+}
+
+.container {
+  min-height: 1000px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 320px;
+  }
 }
