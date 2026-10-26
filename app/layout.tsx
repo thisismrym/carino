@@ -11,12 +11,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <p>Buy your car</p>
           </Link>
         </header>
-        <div className={styles.container }>{children}</div>
+        <div className={styles.container}>{children}</div>
         
 
         <footer className={styles.footer}>
           <a href="https://thisismaryam.ir/" target="_blank">
-            © 2026 Carino. Made with ❤️ by Maryam.
+            &copy; 2026 Carino. Made with ❤️ by Maryam.
           </a>
         </footer>
       </body>
